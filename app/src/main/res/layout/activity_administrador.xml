@@ -52,4 +52,13 @@
         android:layout_marginTop="25dp"
         android:text="Informe seu Usuario e Senha de Administrador" />
 
+    <Button
+        android:id="@+id/bt_voltar_ini"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bt_admin_entrar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="44dp"
+        android:text="Voltar" />
+
 </RelativeLayout>

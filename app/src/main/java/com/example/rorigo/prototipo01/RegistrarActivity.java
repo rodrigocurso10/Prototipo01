@@ -47,7 +47,7 @@ public class RegistrarActivity extends AppCompatActivity {
                 else {
                     //tudo ok
                     long res = db.CriarUtilizador(username, p1);
-                    if (res > 0){
+                    if (res>0){
                         Toast.makeText(RegistrarActivity.this, "Registro ok", Toast.LENGTH_SHORT).show();
                     }
                     else {
